@@ -17,7 +17,7 @@ son.
 ## Make sure que pdChoco est la   
 https://t-o-f.info/aide/#/logiciels/pd/pdchoco/   
 ## Pure Data   
-https://t-o-f.info/aide/#/logiciels/pd/serie/ascii/   
+https://t-o-f.info/aide/#/logiciels/pd/serie/ascii/audio/   
 2-Ouvrir Device Manager -> Ports -> COMx ( le x mettre dans open)
 
 
