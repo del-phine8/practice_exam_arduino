@@ -36,14 +36,28 @@ void loop() {
  if (bouton.pressed()) // appuie sur le bouton-> allume lumiere, reappuie-> etteint lumiere
   {
     etatDel = !etatDel; //envoie le contraire de etatdel : etatdel commence a 0 donc quand on appuie ca va etre 1 et ca continue a flip
-    Serial.print("bouton1 "); // nomme le bouton pour différencier dans Pd, ecrire "route bouton1" fait en sorte que ca ignore bouton1 et print directement 1
-    if (etatDel == true) {
-      Serial.print(1);
-    } else {
+    Serial.print("bouton "); // nomme le bouton pour différencier dans Pd, ecrire "route bouton1" fait en sorte que ca ignore bouton1 et print directement 1
+     if (etatDel == true) {
+       Serial.print(1);
+     } else {
       Serial.print(0);
-    }
-    Serial.println();
+     }
+     Serial.println();
 
     digitalWrite(BROCHE_DEL, etatDel); // important de tjr mettre a la fin
+  }
+
+ if (bouton2.isPressed()) // doit rester appuyer pour que la lumiere soit allumer
+  {
+    etatDel2 = !etatDel2; 
+    Serial.print("bouton2 ");
+     if (etatDel2 == true) {
+       Serial.print(1);
+     } else {
+      Serial.print(0);
+     }
+     Serial.println();
+
+    digitalWrite(BROCHE_DEL2, etatDel2); // important de tjr mettre a la fin
   }
 }
