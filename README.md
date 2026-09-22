@@ -15,7 +15,10 @@ s’illumine en continu. Je dois appuyer de nouveau pour éteindre la DEL et arr
 son.   
 – Ne pas oublier de faire le commit du git !   
 ## Make sure que pdChoco est la   
-https://t-o-f.info/aide/#/logiciels/pd/pdchoco/
+https://t-o-f.info/aide/#/logiciels/pd/pdchoco/   
+## Pure Data   
+https://t-o-f.info/aide/#/logiciels/pd/serie/ascii/   
+2-Ouvrir Device Manager -> Ports -> COMx ( le x mettre dans open)
 
 
 
