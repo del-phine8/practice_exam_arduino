@@ -19,8 +19,9 @@ https://t-o-f.info/aide/#/logiciels/pd/pdchoco/
 ## Pure Data   
 https://t-o-f.info/aide/#/logiciels/pd/serie/ascii/audio/   
 2-Ouvrir Device Manager -> Ports -> COMx ( le x mettre dans open)   
-3-Media-> Dps-> On   
-4- Media -> Audio settings
+3-Media-> Dsp-> On   
+4- Media -> Audio settings   
+5- make sure que le comport est installer: tools -> find externa; -> comport
 
 
 
