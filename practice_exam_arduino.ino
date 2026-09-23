@@ -49,7 +49,10 @@ void loop() {
 
  if (bouton2.isPressed()) // doit rester appuyer pour que la lumiere soit allumer
   {
-    etatDel2 = !etatDel2; 
+    digitalWrite(BROCHE_DEL2, HIGH);
+  } else {
+    digitalWrite(BROCHE_DEL2, LOW);
+  }
     Serial.print("bouton2 ");
      if (etatDel2 == true) {
        Serial.print(1);
@@ -57,7 +60,5 @@ void loop() {
       Serial.print(0);
      }
      Serial.println();
-
-    digitalWrite(BROCHE_DEL2, etatDel2); // important de tjr mettre a la fin
   }
-}
+
